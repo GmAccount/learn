@@ -1,8 +1,9 @@
 import sys
 somme=0
-
 i=1
 minVal,maxVal=(None,None)
+list_3_values=list()
+
 
 while i<=3:
     print ("iteration {} ...".format(i))
@@ -14,13 +15,18 @@ while i<=3:
         print ("this input {} is not integer...".format(input_var))
         continue
 
+    list_3_values.append(input_var)  
+    i=i+1
+
+
+for j in list_3_values:
     """
     trying to have min value
     """
     if minVal is None: 
-        minVal=input_var
-    elif input_var<minVal:
-        minVal=input_var
+        minVal=j
+    elif j<minVal:
+        minVal=j
 
 
 
@@ -28,19 +34,18 @@ while i<=3:
     trying to have max value
     """
     if maxVal is None: 
-        maxVal=input_var
-    elif input_var>maxVal:
-        maxVal=input_var
+        maxVal=j
+    elif j>maxVal:
+        maxVal=j
 
     
 
 
 
 
-    i=i+1
     
-    print (input_var)
-    somme=somme+int(input_var)
+    
+    somme=somme+int(j)
 
 print ("The sum is :  {}".format(somme))  
 print ("The max value is :  {}".format(maxVal))  
