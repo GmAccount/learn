@@ -1,5 +1,6 @@
 import sys
 somme=0
+
 i=1
 minVal,maxVal=(None,None)
 
