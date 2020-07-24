@@ -67,12 +67,15 @@ print ("The min value is :  {}".format(minVal))
 example output :
 
 D:\testpy\learn>py -3 input3variables.py
-Enter an integer : 20
-Enter an integer : a
-this input a is not integer...
-Enter an integer : -20
-Enter an integer : 30
-The sum is :  30
-The max value is :  30
-The min value is :  -20
+Enter an integer : 1
+Enter an integer : 2
+Enter an integer : 3
+----- la list est :---------
+[1, 2, 3]
+--------------
+The sum is :  6
+The max value is :  3
+The min value is :  1
+
+D:\testpy\learn>
 """
