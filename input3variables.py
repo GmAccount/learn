@@ -1,12 +1,18 @@
 import sys
+
+
+
 somme=0
 i=1
 minVal,maxVal=(None,None)
 list_3_values=list()
 
+"""
+entering values
+"""
 
 while i<=3:
-    print ("iteration {} ...".format(i))
+    #print ("iteration {} ...".format(i))
     input_var = input("Enter an integer : ") 
 
     try:
@@ -50,3 +56,18 @@ for j in list_3_values:
 print ("The sum is :  {}".format(somme))  
 print ("The max value is :  {}".format(maxVal))  
 print ("The min value is :  {}".format(minVal))    
+
+
+"""
+example output :
+
+D:\testpy\learn>py -3 input3variables.py
+Enter an integer : 20
+Enter an integer : a
+this input a is not integer...
+Enter an integer : -20
+Enter an integer : 30
+The sum is :  30
+The max value is :  30
+The min value is :  -20
+"""
