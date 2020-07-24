@@ -18,11 +18,16 @@ while i<=3:
     try:
         input_var = int(input_var)
     except:
-        print ("this input {} is not integer...".format(input_var))
+        print ("this input '{}' is not an integer...".format(input_var))
         continue
 
     list_3_values.append(input_var)  
     i=i+1
+
+
+print("----- la list est :---------")
+print(list_3_values)
+print("--------------")
 
 
 for j in list_3_values:
