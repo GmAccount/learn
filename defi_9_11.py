@@ -13,24 +13,6 @@ class Pays:
       self.surface = surface
       self.population = population
 
-
-
-      self.dico1=dict()
-
-
-
-      list1 = [i for i in str_pays.strip("\n").split("\n")]
-      for i,val in enumerate(list1):
-          if i%3 == 0 :
-            #print(f"pop {i} / {v}")
-            #print(f" {list1[i+2]} / {list1[i+1]}")
-
-            self.dico1[list1[i+2]]={"population":val,"surface":list1[i+1]}
-
-      #print(dico1)
-
-
-
   def densite(self):
       try:
         return int(self.population)/int(self.surface)
