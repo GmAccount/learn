@@ -61,6 +61,8 @@ for i,val in enumerate(list1):
 for pays,info_dic in dico1.items():    
 
   #print(pays,info_dic['population'],info_dic['surface'])
-  p = Pays(pays,info_dic['population'],info_dic['surface'])
+  p = Pays(pays,**info_dic)
+  #  p = Pays(pays,info_dic['population'],info_dic['surface'])
+
   print(p)
 
