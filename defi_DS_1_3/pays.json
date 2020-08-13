@@ -1,0 +1,14 @@
+[
+  {
+    "pays": "Espagne",
+    "capitale": "Madrid",
+    "population": 60000000,
+    "area": 5000000
+  },
+  {
+    "pays": "Portugal",
+    "capitale": "Lisbon",
+    "population": 22000000,
+    "area": 7000000
+  }
+]
