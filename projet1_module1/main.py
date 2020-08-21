@@ -28,8 +28,8 @@ PARTIE 4 : ANALYSE DES DONNEES DE LA BASE
 
 
 from csv import reader
-from bdd import *
-from api import *
+from bdd import CountriesHolidays
+from api import API
 
 
 
